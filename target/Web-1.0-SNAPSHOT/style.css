@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    text-align: center;//文本设置居中
+}
+input{
+    border: 0;/*去掉输入框的边框*/
+    background: #cdcdcd;
+    line-height: 40px;
+    border-radius: 20px;/*四个角变成圆润*/
+    padding: 0 20px 0 20px;/*设置输入框中文字所占的大小*/
+    width: 250px;
+    font-size: 15px;/*设置提示字体大小*/
+    margin-top:20px ;/*为防止输入框重合，上方距离设置为20*/
+}
+input:focus{
+    outline: 0;/*取消被选中时的勾选框*/
+}
+
+button{
+    margin-top: 60px;
+    background: #4174e3;
+    border: 0;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    color:white;
+    font-size: 15px;
+    box-shadow: 0 2px 10px blue;/*设置周围阴影*/
+}
+button:focus{
+    ouline:0;
+    background: #3b4f72;
+}
+.illegal-psw{
+    border:red 1px solid !important;
+    box-shadow: 0 0 5px red;
+}
